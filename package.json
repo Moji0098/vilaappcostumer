@@ -1,0 +1,43 @@
+{
+  "name": "vilaappcostumer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0",
+    "prop-types": "^15.6.2",
+    "react": "16.8.6",
+    "react-native": "0.60.4",
+    "react-native-image-crop-picker": "^0.24.1",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-input-scroll-view": "^1.9.2",
+    "react-native-jalaali-date-picker": "^1.0.0",
+    "react-native-jalali-calendar-picker": "^0.2.6",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-maps": "0.25.0",
+    "react-native-openanything": "0.0.6",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-vector-icons": "^6.5.0",
+    "rn-persian-date-picker": "^1.0.5",
+    "rn-range-slider": "^1.2.6",
+    "rn-viewpager": "^1.2.9",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.8.0",
+    "eslint": "6.1.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
